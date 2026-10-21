@@ -14,7 +14,7 @@ Framework leve e totalmente executável em repositório Git para **rebalanceamen
 
 ## Por que esta abordagem?
 
-O InvestSkill original oferece 30 frameworks estruturados em Markdown puro (sem runtime, sem API keys obrigatórias).  
+O InvestSkill original oferece frameworks estruturados em Markdown puro (sem runtime, sem API keys obrigatórias).  
 Isso permite:
 
 - Usar em qualquer LLM / agente (Claude, Gemini, Cursor, Grok, Ollama etc.)
@@ -22,7 +22,9 @@ Isso permite:
 - Adaptar facilmente para o contexto brasileiro (classes de ativos, métricas de FII, Selic/IPCA, tributação local)
 - Manter o investidor no controle dos dados (você cola a carteira e as fontes)
 
-Veja o documento de decisão: [`docs/DECISAO.md`](docs/DECISAO.md).
+A decisão de arquitetura está registrada em:
+
+- [`docs/adr/0001-adapt-investskill-for-brazilian-portfolio.md`](docs/adr/0001-adapt-investskill-for-brazilian-portfolio.md) (formato ADR — [npryce/adr-tools](https://github.com/npryce/adr-tools))
 
 ## Status atual
 
