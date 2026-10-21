@@ -41,6 +41,15 @@ Próximos passos planejados:
 Baseado no excelente trabalho de [yennanliu/InvestSkill](https://github.com/yennanliu/InvestSkill) (MIT License).  
 Esta é uma adaptação independente focada no mercado brasileiro.
 
-## Licença
+## Licença e uso
 
-MIT (mesmo espírito do projeto original).
+Este projeto é distribuído sob a **licença MIT** (veja o arquivo [LICENSE](LICENSE)).
+
+- **Uso pessoal, educacional e não-comercial**: livre. Basta manter o aviso de copyright e a licença.
+- **Uso por empresas ou em contexto comercial**: o uso também é permitido pela MIT, porém **pedimos que a empresa faça uma doação ao projeto** como forma de reconhecer e sustentar o trabalho.
+
+Se a sua empresa estiver usando este repositório (internamente, em produto, em serviço para clientes etc.), considere contribuir financeiramente. Isso ajuda a manter e evoluir as skills brasileiras.
+
+> Em breve será adicionada uma forma prática de doação (chave Pix, GitHub Sponsors ou similar). Enquanto isso, abra uma issue ou entre em contato pelo GitHub.
+
+Obrigado a todos que usam e apoiam o projeto.
