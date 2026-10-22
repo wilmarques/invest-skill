@@ -56,15 +56,29 @@ Use escopo quando a mudança for específica de uma área, por exemplo:
 - `docs(adr): ...`
 - `fix(portfolio-review): ...`
 
-### Regras locais
-
-Após clonar o repositório:
+### Setup local
 
 ```bash
 npm install
 ```
 
-O Husky instala o hook `commit-msg`, que valida automaticamente cada commit com o Commitlint. Commits que não seguirem o formato serão rejeitados.
+Isso instala as dependências e ativa o Husky. O hook `commit-msg` valida cada commit com o Commitlint.
+
+### Template de mensagem de commit (opcional)
+
+O repositório inclui o arquivo `.gitmessage`. Para usá-lo no seu clone:
+
+```bash
+git config commit.template .gitmessage
+```
+
+Assim, `git commit` (sem `-m`) abre o editor já com o template do Conventional Commits.
+
+Para desativar:
+
+```bash
+git config --unset commit.template
+```
 
 ### Pull Requests
 

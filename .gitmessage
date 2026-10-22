@@ -1,0 +1,12 @@
+# <type>[optional scope]: <description>
+# |<----  preferably up to 50 characters  ---->|
+#
+# [optional body]
+# |<----   wrap at about 72 characters   ---->|
+#
+# [optional footer(s)]
+#
+# Types: feat, fix, docs, style, refactor, perf, test, build, ci, chore, revert
+# Example: feat(fii): add vacancy and P/VP metrics to analysis prompt
+#
+# See CONTRIBUTING.md for details.

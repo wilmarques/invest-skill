@@ -44,6 +44,7 @@ Após clonar:
 
 ```bash
 npm install
+git config commit.template .gitmessage   # opcional: template no editor
 ```
 
 Isso ativa o Husky + Commitlint. Commits que não seguirem o formato serão rejeitados localmente. Em Pull Requests, a validação também roda no CI.
