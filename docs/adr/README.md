@@ -42,6 +42,7 @@ O que se torna mais fácil ou mais difícil por causa desta decisão.
 | Número | Título | Status | Data |
 |--------|--------|--------|------|
 | [0001](0001-adapt-investskill-for-brazilian-portfolio.md) | Adapt InvestSkill for Brazilian multi-asset portfolio management | Accepted | 2026-10-21 |
+| [0002](0002-use-conventional-commits.md) | Use Conventional Commits | Accepted | 2026-10-21 |
 
 ## Como criar um novo ADR
 

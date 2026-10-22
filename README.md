@@ -36,6 +36,20 @@ Próximos passos planejados:
 3. Definir estrutura de carteira (YAML/Markdown) + fluxo mensal
 4. Exemplos de uso e templates
 
+## Desenvolvimento
+
+Este repositório usa **[Conventional Commits](https://www.conventionalcommits.org/)**.
+
+Após clonar:
+
+```bash
+npm install
+```
+
+Isso ativa o Husky + Commitlint. Commits que não seguirem o formato serão rejeitados localmente. Em Pull Requests, a validação também roda no CI.
+
+Detalhes em [CONTRIBUTING.md](CONTRIBUTING.md).
+
 ## Origem
 
 Baseado no excelente trabalho de [yennanliu/InvestSkill](https://github.com/yennanliu/InvestSkill) (MIT License).  
